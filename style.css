@@ -1,0 +1,206 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+h2{
+	text-align: center;
+	color: #5FAD1F;
+	text-decoration: underline;
+}
+h3{
+    text-align: left;
+	color: #5FAD1F;	
+}
+
+header{
+	background: #484545;
+	height: 48px;
+}
+
+header .head_content{
+	max-width: 980px;
+	height: 46px;
+	margin: 0 auto;
+	background: #484545;
+}
+
+header .menu{
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	background: #7BC142;
+
+	padding: 6px 10px;
+	margin: 7px 8px 7px 8px;
+	border-radius: 8px ;
+	transition: background .5s;
+}
+
+header .lien{
+	margin: 7px 5px 0 0 ;
+}
+
+header .menu:hover{
+	background: #fff;
+}
+
+
+nav{
+	background: #EBECE4;
+	padding: 10px 0 10px 0;
+}
+
+nav .menu{
+	max-width: 980px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+figure{
+	margin-top: 10px;
+	background-color: #EBECE4;
+}
+
+section{
+
+}
+
+aside{
+	height: 200px;
+	width: 400px;
+	padding: 5px;
+	margin: 5px;
+	float: left;
+}
+
+footer{
+background: #000;
+height: 92px;
+color: #448A22;
+clear: both;
+margin-top: 10px;
+padding-left: 10px;
+}
+p{
+	padding: 10px;
+}
+
+.flottement-droite{
+	float: right;
+}
+.flottement-gauche{
+	float: left;
+}
+
+#banniere_content{
+	background-color: #EBECE4;
+}
+
+.banniere{
+	max-width: 1020px;
+	margin: 0 auto;
+	background: #EBECE4;
+	text-align: center;
+	padding: 20px 0;
+	position: relative;
+}
+
+
+.banniere aside{
+	width: 300px;
+	position: absolute;
+	top: -17px;
+	left: 762px;
+}
+
+.banniere aside p{
+	width: 200px;
+	color: #7BC142;
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-menu{
+    color: #FFF;
+    background-color: #67C83D;
+    border-color: #67C83D;
+}
+
+.dropdown-toggle{
+    color: #000;
+    background-color: #EBECE4;
+    border-color: #EBECE4;
+}
+
+.dropdown-toggle:hover {
+    color: #FFF;
+    background-color: #67C83D;
+    border-color: #67C83D;
+}
+
+.video {
+	margin-top: 30px;
+	padding-left: 10px;
+}
+
+.diff{
+color: white;
+}
+
+.block2{
+	width: 500px;
+	height: 300px;
+	float: right;
+	padding: 5px;
+}
+
+
+#nav li{
+	display: inline;
+	color: black;
+}
+#nav a{
+	display: inline-block;
+	margin: 0 30px;
+	color: black;
+}
+
+#dessins{
+	margin-left: 0px;
+	height: 227px;
+	width: 59px;
+	float:left; 
+	margin-right: auto;
+
+}
+#texte{
+    line-height: 1em;
+}
+
+#col_md_8{
+	width: 342px;
+	padding-right: 40px;
+}
+
+#Nouveautes{
+	text-align: center;
+	margin-top: 0px;
+}
+
+@media (max-width: 1000px){
+.banniere aside{
+	display: none;
+    } 
+ .video {
+ 	width:100%;
+ }
+}
+
+@media (max-width: 419px){
+	#logo_img{
+		width: 100%;
+	}
+}

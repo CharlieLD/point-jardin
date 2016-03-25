@@ -1,0 +1,205 @@
+html, body{
+	width: 100%;
+	font-family: arial;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#bloc_page{
+	width: 600px;
+	margin: auto;
+}
+
+nav a{
+	color: black;
+}
+h3, h2{
+	color: #4AAD1F;
+}
+
+/* Header
+-----------------------------*/
+
+header{
+	background: #000;
+	height: 46px;
+}
+
+header .head_content{
+	max-width: 980px;
+	height: 46px
+	margin: 0 auto;
+	background: #484545;
+}
+
+header .menu{
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	background: #7BC142;
+
+	padding: 6px 10px;
+	margin: 7px 8px 7px 8px;
+	border-radius: 8px;
+	transition: background .5s;
+}
+
+header .lien{
+	margin: 7px 5px 0 0;
+}
+
+header .menu:hover{
+	background: #fff;
+	}
+
+	.flottement-droite{
+		float: right;
+	}
+
+	.flottement-gauche{
+		float: left;
+	}
+
+	/*
+	--------------------------*/
+
+    /* Banniere
+-   --------------------------*/
+	#banniere_content{
+		background-color: #EBECE4;
+	}
+
+.banniere{
+	max-width: 980px;
+	margin: 0 auto;
+	background: #EBECE4;
+	text-align: center;
+	padding: 20px 0;
+
+	position: relative;
+}
+
+
+.banniere aside{
+	width: 300px;
+	position: absolute;
+	top: -7px;
+	left: 762px;
+}
+
+.banniere aside p{
+	width: 200px;
+	color: #7BC142;
+	margin: 0;
+	padding: 0;
+}
+@media (max-width: 1000px){
+.banniere aside{
+	display: none;
+    } 
+}
+
+@media (max-width: 419px){
+	#logo_img{
+		width: 100%;
+	}
+}
+
+/*
+-------------------------*/
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 15px
+}
+li{
+	margin-left:30px;
+ float:left;
+ color: black;
+}
+
+/* Navigation
+------------------------*/
+	nav{
+		font-size: 90%;
+		color: black;
+}
+#nav li{
+	display: inline;
+	color: black;
+}
+#nav a{
+	display: inline-block;
+	margin: 0 30px
+	color: black;
+}
+/*
+-----------------------*/
+
+
+/* Section vidéo et arcticle
+-----------------------*/
+section{
+
+}
+
+#video{
+	height: 250;
+	width: 400;
+	padding: 10px;
+	float: left;
+}
+article{
+margin-left: 10px;
+	height: 250;
+	width: 550;
+	float: right;
+}
+
+#dessins{
+	margin-left: 10px;
+	height: 150;
+
+}
+
+/*
+------------------------*/
+
+/* Nouveautés
+------------------------*/
+
+
+
+
+
+
+
+
+/*
+------------------------*/
+
+/* Footer
+------------------------*/
+
+footer{
+background: #000;
+color: #448A22;
+    width: 980px;
+    position: absolute;
+    left: 0px;
+    height: 92px;
+    bottom: auto;
+    top: 1293px;
+
+	}
+	/*
+	------------------------*/
